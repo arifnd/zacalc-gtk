@@ -46,6 +46,7 @@ class ZaCalc(object):
 			"on_button1_clicked" : self.show_about,
 			"on_button2_clicked" : self.HitungZakat,
 			"on_button3_clicked" : gtk.main_quit,
+			"on_button4_clicked" : self.Clear,
 			
 			"on_entry1_changed" : self.Validasi,
 			"on_entry2_changed" : self.Validasi,
@@ -149,6 +150,25 @@ class ZaCalc(object):
 	
 	def hide_about(self,widget):
 		self.wTree.get_widget("window_about").hide()
+	
+	def Clear(self,widget):
+		self.wTree.get_widget("entry1").set_text("0")
+		self.wTree.get_widget("entry2").set_text("0")
+		self.wTree.get_widget("entry3").set_text("0")
+		self.wTree.get_widget("entry4").set_text("0")
+		self.wTree.get_widget("entry5").set_text("0")
+		
+		self.wTree.get_widget("lbl1").set_text("")
+		self.wTree.get_widget("lbl2").set_text("")
+		self.wTree.get_widget("lbl3").set_text("")
+		self.wTree.get_widget("lbl4").set_text("")
+		self.wTree.get_widget("lbl5").set_text("")
+		self.wTree.get_widget("lbl6").set_text("")
+		self.wTree.get_widget("lbl7").set_text("")
+		self.wTree.get_widget("lbl8").set_text("")
+		self.wTree.get_widget("lbl9").set_text("")
+		self.wTree.get_widget("lbl10").set_text("")
+		self.wTree.get_widget("lbl11").set_text("")
 		
 if __name__ == "__main__":	
 	nisab = ZaCalc()
