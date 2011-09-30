@@ -1,13 +1,22 @@
 Zakat Calculator Indonesia (BlankOn)
+BlankOn Zakat Calculator is tool to calculate the amount of zakat must be spent every year or every month
 
 Created 2010 Fitra Aditya <fitra@idmail.or.id>
 Modified 2011 Ari Effendi <zerosix06@gmail.com>
 
-#Modified #1:
--Add reset button
+#modified #3:
+- Add sortcut key
+	- Enter to calculate
+	- c to clear result 
+- Now zacalc-gtk.py only using pygtk only
+- zacalc using libglade move to zacalc-gtk-libglade.py
+- About dialog bugfix for zacalc-gtk-libglade.py
+
+#Modified #2:
+- Add reset button
 
 #Modified #1:
--Change TKinter to PyGtk + libGlade
--Add Validation function (numeric only)
--Add About Dialog
--Colored message for Yes(green) and No(red)
+- Change TKinter to PyGtk + libGlade
+- Add Validation function (numeric only)
+- Add About Dialog
+- Colored message for Yes(green) and No(red)
