@@ -223,13 +223,10 @@ class ZaCalc(object):
 		label18.set_alignment(xalign=-0, yalign=0.5)
 		
 		table1.set_col_spacings(30)
-		table1.set_row_spacings(5)
 		table2.set_col_spacings(35)
-		table2.set_row_spacings(5)
 		table3.set_col_spacings(35)
 		table3.set_row_spacings(10)
 		table4.set_col_spacings(35)
-		table4.set_row_spacings(5)
 		table5.set_col_spacings(35)
 		table5.set_row_spacings(10)
 		
@@ -256,6 +253,7 @@ class ZaCalc(object):
 		
 		window = gtk.Window(gtk.WINDOW_TOPLEVEL)
 		window.set_resizable(False)
+		window.set_size_request(410,530) #window title
 		window.set_border_width(10) #padding
 		window.set_position(gtk.WIN_POS_CENTER) #default position
 		window.set_title("BlankOn Zakat Calculator") #window title
