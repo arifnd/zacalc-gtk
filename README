@@ -3,6 +3,7 @@ BlankOn Zakat Calculator is tool to calculate the amount of zakat must be spent 
 
 Created 2010 Fitra Aditya <fitra@idmail.or.id>
 Modified 2011 Ari Effendi <zerosix06@gmail.com>
+Modified 2011 Azis Ws a.k.a mijortsa <azis.astrojim@surabaya.di.blankon.in>
 
 #modified #3:
 - Add sortcut key
@@ -20,3 +21,9 @@ Modified 2011 Ari Effendi <zerosix06@gmail.com>
 - Add Validation function (numeric only)
 - Add About Dialog
 - Colored message for Yes(green) and No(red)
+
+#Mijortsa modif
+- Changes resolution 800x600
+- added ayyah and logo
+- window, about end button position
+- right position input digit
